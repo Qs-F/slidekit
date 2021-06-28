@@ -78,10 +78,25 @@ strong {
   font-weight: 700;
 }
 
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
 footer {
   color: #8ab7ff;
   font-size: 24px;
   font-weight: 700;
+  line-height: 1.6em;
   text-align: center;
   width: 100%;
+}
+
+small {
+  font-size: 20px;
+  opacity: .5;
+}
+
+img {
+  background: none;
 }
